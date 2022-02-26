@@ -1,4 +1,5 @@
 const app = require("express")();
+const bodyParser = require("body-parser");
 const PORT = 3003;
 
 /**
@@ -10,7 +11,14 @@ const PORT = 3003;
 
 //Example importing middleware as a placeholder for future middlewares
 const test = require("./middlewares").test;
-app.use(require("express").json());
+
+app.use(bodyParser.json()); // to support JSON-encoded bodies
+app.use(
+  bodyParser.urlencoded({
+    // to support URL-encoded bodies
+    extended: true,
+  })
+);
 
 app.use("/api", require("./routes"));
 
