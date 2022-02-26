@@ -7,6 +7,11 @@ require("dotenv").config();
  */
 router.use("/", require("./all"));
 /**
+ * Returns elements based on post related to repairs
+ * or transformation of products
+ */
+router.use("/type", require("./toRepair"));
+/**
  * Returns all elements of a cerntain key-word
  * empty array if no value found
  */
