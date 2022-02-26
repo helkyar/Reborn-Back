@@ -6,10 +6,10 @@ const data = require("../resources/mockdata");
  * @param {request} req
  * @param {response} res
  */
-function getCategory(req, res) {
-  let category = req.params.category;
-  let post = data.posts.filter((post) => post.categories.includes(category));
+function getMaterial(req, res) {
+  let material = req.params.material;
+  let post = data.posts.filter((post) => post.materials.includes(material));
   res.status(200).json(post);
 }
 
-module.exports = getCategory;
+module.exports = getMaterial;

@@ -3,12 +3,12 @@ const PORT = 3003;
 
 /**
  * Database testing, connected and made insertions but couldn't retrieve data
- * Swith methods to overwrite .json
+ * Swith to overwrite .json
  */
 // const testing = require("./managers/PostManager");
 // testing(console.error);
 
-//Example importing middleware as a placeholder for future middewares
+//Example importing middleware as a placeholder for future middlewares
 const test = require("./middlewares").test;
 app.use(require("express").json());
 

@@ -6,6 +6,7 @@ const title = "title";
 const value = "Mi precioso armarrio empotrado";
 const idOfPost = "621a41b81cd62a952fc60be6";
 /**
+ * (!)FAILED TO RETRIEVE DATA
  * Database connection
  */
 async function PostManager() {
