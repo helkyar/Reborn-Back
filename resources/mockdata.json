@@ -1,16 +1,18 @@
 {
-  "squadName": "Super hero squad",
-  "homeTown": "Metro City",
-  "formed": 2016,
-  "secretBase": "Super tower",
-  "active": true,
-  "members": [
-    {
-      "id": 1,
-      "name": "Molecule Man",
-      "age": 29,
-      "secretIdentity": "Dan Jukes",
-      "powers": ["Radiation resistance", "Turning tiny", "Radiation blast"]
-    }
-  ]
+  "id": "verycomplicatedid",
+  "email": "issecret@crytic.com",
+  "título": 2016,
+  "descripción": "Super tower",
+  "torepair": true,
+  "videos": [
+    "https://www.youtube.com/watch?v=7XO1AzwkPPE&list=PLU8oAlHdN5BmfvwxFO7HdPciOCmmYneAB&ab_channel=pildorasinformaticas",
+    "https://www.youtube.com/watch?v=VPvVD8t02U8&ab_channel=freeCodeCamp.org"
+  ],
+  "img": [
+    "https://medias.conforama.pt/media/650by551/1e7e2763c70d2ffe8f17bff6095fe738d48270c6_BROOKLYN__1__405820.webp",
+    "https://www.bricodepot.es/cdn/q/80/media/catalog/product/1/6/16d2d687a82453f42e3f4492444724280b034b85_111471.jpg"
+  ],
+  "categorias": ["mueble", "armarios"],
+  "materiales": ["madera", "conglomerado"],
+  "etiquetas": ["viejo", "grande", "closet"]
 }
