@@ -1,0 +1,25 @@
+{
+  "name": "svback",
+  "version": "1.0.0",
+  "description": "Back end of second life web",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helkyar/SegundaVidaBack.git"
+  },
+  "author": "Sonia, Manuel, Javier, Fernando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helkyar/SegundaVidaBack/issues"
+  },
+  "homepage": "https://github.com/helkyar/SegundaVidaBack#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
